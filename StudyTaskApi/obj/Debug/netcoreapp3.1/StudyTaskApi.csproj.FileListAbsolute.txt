@@ -1,0 +1,5 @@
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi\obj\Debug\netcoreapp3.1\StudyTaskApi.AssemblyInfoInputs.cache
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi\obj\Debug\netcoreapp3.1\StudyTaskApi.AssemblyInfo.cs
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi\obj\Debug\netcoreapp3.1\StudyTaskApi.csproj.CoreCompileInputs.cache
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi\obj\Debug\netcoreapp3.1\StudyTaskApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi\obj\Debug\netcoreapp3.1\StudyTaskApi.csprojAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\bin\Debug\netstandard2.0\StudyTaskApi.Business.deps.json
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\bin\Debug\netstandard2.0\StudyTaskApi.Business.dll
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\bin\Debug\netstandard2.0\StudyTaskApi.Business.pdb
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\obj\Debug\netstandard2.0\StudyTaskApi.Business.AssemblyInfoInputs.cache
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\obj\Debug\netstandard2.0\StudyTaskApi.Business.AssemblyInfo.cs
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\obj\Debug\netstandard2.0\StudyTaskApi.Business.csproj.CoreCompileInputs.cache
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\obj\Debug\netstandard2.0\StudyTaskApi.Business.dll
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\obj\Debug\netstandard2.0\StudyTaskApi.Business.pdb
+C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.Business\obj\Debug\netstandard2.0\StudyTaskApi.Business.csprojAssemblyReference.cache

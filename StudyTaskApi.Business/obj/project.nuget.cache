@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LPPyuxHSm8gDug0BN5o1myVpjQbubO64B3GtmtoWzFzecU7+G6fCAjQFso4En9828N5AggG3J6tn1D3lqNvalQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\apryb\\source\\repos\\StudyTaskApi\\StudyTaskApi.Business\\StudyTaskApi.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apryb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\apryb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

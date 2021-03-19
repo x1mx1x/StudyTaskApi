@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "StudyTaskApi.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/StudyTaskApi.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudyTaskApi.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudyTaskApi.Business/1.0.0": {
+      "type": "project",
+      "path": "../StudyTaskApi.Business/StudyTaskApi.Business.csproj",
+      "msbuildProject": "../StudyTaskApi.Business/StudyTaskApi.Business.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "StudyTaskApi.Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\apryb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\apryb\\source\\repos\\StudyTaskApi\\StudyTaskApi\\StudyTaskApi.csproj",
+      "projectName": "StudyTaskApi",
+      "projectPath": "C:\\Users\\apryb\\source\\repos\\StudyTaskApi\\StudyTaskApi\\StudyTaskApi.csproj",
+      "packagesPath": "C:\\Users\\apryb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\apryb\\source\\repos\\StudyTaskApi\\StudyTaskApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\apryb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\apryb\\source\\repos\\StudyTaskApi\\StudyTaskApi.Business\\StudyTaskApi.Business.csproj": {
+              "projectPath": "C:\\Users\\apryb\\source\\repos\\StudyTaskApi\\StudyTaskApi.Business\\StudyTaskApi.Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
