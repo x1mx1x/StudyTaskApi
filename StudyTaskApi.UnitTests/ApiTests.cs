@@ -22,9 +22,9 @@ namespace StudyTaskApi.UnitTests
             }
         }
         [Test]
-        public void Test()
+        public void CountCharactersTest()
         {
-            Assert.AreEqual(expectedCounts, _setGeneratorService.CountCharacters(strings));
+            _setGeneratorService.CountCharacters(strings).Should().BeEquivalentTo(expectedCounts);
         }
     }
 }
