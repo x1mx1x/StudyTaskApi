@@ -8,7 +8,7 @@ namespace StudyTaskApi.UnitTests
     [TestFixture]
     public class ApiTests
     {
-        private SetGeneratorService _setGeneratorService;
+        private CountService _countService;
         string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         Dictionary<char, int> expectedCounts = new Dictionary<char, int>();
         List<string> strings = new List<string>()
@@ -16,6 +16,7 @@ namespace StudyTaskApi.UnitTests
         [SetUp]
         public void SetUp()
         {
+            _countService = new CountService();
             foreach (char ch in alphabet)
             {
                 expectedCounts.Add(ch, 2);
@@ -24,7 +25,7 @@ namespace StudyTaskApi.UnitTests
         [Test]
         public void CountCharactersTest()
         {
-            _setGeneratorService.CountCharacters(strings).Should().BeEquivalentTo(expectedCounts);
+            _countService.CountCharacters(strings,alphabet).Should().BeEquivalentTo(expectedCounts);
         }
     }
 }

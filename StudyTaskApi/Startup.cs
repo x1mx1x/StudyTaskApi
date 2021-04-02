@@ -29,6 +29,7 @@ namespace StudyTaskApi
         {
             services.AddControllers();
             services.AddSingleton<ISetGeneratorService, SetGeneratorService>();
+            services.AddSingleton<ICountService, CountService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
