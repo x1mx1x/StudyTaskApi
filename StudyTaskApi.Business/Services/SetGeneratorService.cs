@@ -7,9 +7,6 @@ namespace StudyTaskApi.Business.Services
 {
     public class SetGeneratorService : ISetGeneratorService
     {
-        public Dictionary<char, int> CountCharacters(List<string> strings) 
-        {
-            return new Dictionary<char, int>();
-        }
+
     }
 }

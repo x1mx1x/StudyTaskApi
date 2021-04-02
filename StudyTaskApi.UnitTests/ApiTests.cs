@@ -22,6 +22,7 @@ namespace StudyTaskApi.UnitTests
                 expectedCounts.Add(ch, 2);
             }
         }
+
         [Test]
         public void CountCharactersTest()
         {
