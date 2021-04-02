@@ -35,7 +35,12 @@ namespace StudyTaskApi.UnitTests
         [Test]
         public void GenerateSetTest() 
         {
-            _setGeneratorService.GenerateSet(cardinality, length, alphabet).Should().BeEquivalentTo(expectedSet);
+            var set = _setGeneratorService.GenerateSet(cardinality, length, alphabet);
+            foreach (var str in set) 
+            {
+                str.Length.Should().Be(length);
+            }
+            set.Count.Should().Be(cardinality);
         }
     }
 }

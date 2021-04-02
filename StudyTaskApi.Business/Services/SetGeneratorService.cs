@@ -9,7 +9,19 @@ namespace StudyTaskApi.Business.Services
     {
         public List<string> GenerateSet(int cardinality, int length, string alphabet) 
         {
-            return new List<string>();
+            Guid guid = Guid.NewGuid();
+            Random rand = new Random(guid.GetHashCode());
+            List<string> strings = new List<string>();
+            for (int i = 0; i < cardinality; i++) 
+            {
+                string str = "";
+                for (int j = 0; j < length; j++) 
+                {
+                    str += alphabet[rand.Next()%alphabet.Length];
+                }
+                strings.Add(str);
+            }
+            return strings;
         }
     }
 }
