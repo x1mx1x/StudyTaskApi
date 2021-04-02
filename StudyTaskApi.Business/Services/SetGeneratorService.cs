@@ -9,9 +9,9 @@ namespace StudyTaskApi.Business.Services
     {
         public List<string> GenerateSet(int cardinality, int length, string alphabet) 
         {
-            Guid guid = Guid.NewGuid();
-            Random rand = new Random(guid.GetHashCode());
-            List<string> strings = new List<string>();
+            Random rand = new Random();
+            List<string> strings = new List<string>(cardinality);
+
             for (int i = 0; i < cardinality; i++) 
             {
                 string str = "";
@@ -19,8 +19,10 @@ namespace StudyTaskApi.Business.Services
                 {
                     str += alphabet[rand.Next()%alphabet.Length];
                 }
+
                 strings.Add(str);
             }
+
             return strings;
         }
     }

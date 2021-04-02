@@ -8,7 +8,9 @@ namespace StudyTaskApi.Dto
     public class ResponseSetDto
     {
         public List<string> Set { get; set; }
+
         public Dictionary<char, int> Counts { get; set; }
-        public int Time { get; set; }
+
+        public long TimeSec { get; set; }
     }
 }

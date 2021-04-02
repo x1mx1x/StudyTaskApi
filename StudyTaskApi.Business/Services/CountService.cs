@@ -25,8 +25,10 @@ namespace StudyTaskApi.Business.Services
                         }
                     }
                 }
+
                 counts.Add(ch, count);
             }
+
             return counts;
         }
     }
