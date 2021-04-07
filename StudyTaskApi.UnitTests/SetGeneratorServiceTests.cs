@@ -1,7 +1,6 @@
-﻿using NUnit.Framework;
-using System.Collections.Generic;
+﻿using FluentAssertions;
+using NUnit.Framework;
 using StudyTaskApi.Business.Services;
-using FluentAssertions;
 
 namespace StudyTaskApi.UnitTests
 {
