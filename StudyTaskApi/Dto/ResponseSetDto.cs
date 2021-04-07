@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace StudyTaskApi.Dto
 {
@@ -11,6 +9,6 @@ namespace StudyTaskApi.Dto
 
         public Dictionary<char, int> Counts { get; set; }
 
-        public long TimeSec { get; set; }
+        public TimeSpan Timer { get; set; }
     }
 }
