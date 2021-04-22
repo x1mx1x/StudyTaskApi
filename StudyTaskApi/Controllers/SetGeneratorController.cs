@@ -1,17 +1,34 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using StudyTaskApi.Business.Services.Interfaces;
+using StudyTaskApi.Dto;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace StudyTaskApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/sets")]
     [ApiController]
     public class SetGeneratorController : ControllerBase
     {
+        private readonly ISetGeneratorService _setGeneratorService;
+        private readonly ICountService _countService;
+        public SetGeneratorController(ISetGeneratorService setGeneratorService, ICountService countService) 
+        {
+            _setGeneratorService = setGeneratorService;
+            _countService = countService;
+        }
 
+        [Route("body")]
+        public ResponseSetDto GenerateSetFromBody([FromBody]RequestSetDto setDto)
+        {
+            Stopwatch myStopwatch = new Stopwatch();
+            myStopwatch.Start(); 
+            var set = _setGeneratorService.GenerateSet(setDto.Cardinality, setDto.Length, setDto.Alphabet);
+            var counts = _countService.CountCharacters(set, setDto.Alphabet);
+            myStopwatch.Stop();
+
+            return new ResponseSetDto{ Set = set, Counts = counts, ProcessingTime = myStopwatch.Elapsed };
+        }
 
     }
 }

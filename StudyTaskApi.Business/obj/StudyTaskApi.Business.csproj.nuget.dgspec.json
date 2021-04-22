@@ -22,6 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.bddevops.io/artifactory/api/nuget/BD-nuget": {},
+          "http://artifactory.cfnp.local:8081/artifactory/api/nuget/BD-nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

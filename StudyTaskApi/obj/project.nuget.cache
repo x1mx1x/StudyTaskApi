@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2o4ita8HeQmgduIBaJsA8XyH/Jq1FTTIbJIzaij9uUNOYiFsQXeI/CZ+j5brdnLCXLXevE7+kFebFTr7BQ/EgQ==",
+  "dgSpecHash": "fqwxRdJ7IsrFaDwAket4kPoQ+NN6w6b2xvOl/wjLS4iWHbKj9ACzYpmlQ1T4JBXvz4Zokdm97YDoDbOkJBgLVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\apryb\\source\\repos\\StudyTaskApi\\StudyTaskApi\\StudyTaskApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\apryb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }
