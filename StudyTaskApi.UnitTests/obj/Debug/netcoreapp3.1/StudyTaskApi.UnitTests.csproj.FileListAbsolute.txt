@@ -105,7 +105,3 @@ C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\obj\Debug\netcor
 C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\obj\Debug\netcoreapp3.1\StudyTaskApi.UnitTests.dll
 C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\obj\Debug\netcoreapp3.1\StudyTaskApi.UnitTests.pdb
 C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\obj\Debug\netcoreapp3.1\StudyTaskApi.UnitTests.genruntimeconfig.cache
-C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\bin\Debug\netcoreapp3.1\NUnit.VisualStudio.TestAdapter.dll
-C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\bin\Debug\netcoreapp3.1\nunit.core.dll
-C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\bin\Debug\netcoreapp3.1\nunit.core.interfaces.dll
-C:\Users\apryb\source\repos\StudyTaskApi\StudyTaskApi.UnitTests\bin\Debug\netcoreapp3.1\nunit.util.dll
