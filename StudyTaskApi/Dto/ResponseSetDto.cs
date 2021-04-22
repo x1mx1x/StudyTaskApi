@@ -9,6 +9,6 @@ namespace StudyTaskApi.Dto
 
         public Dictionary<char, int> Counts { get; set; }
 
-        public TimeSpan Timer { get; set; }
+        public TimeSpan ProcessingTime { get; set; }
     }
 }

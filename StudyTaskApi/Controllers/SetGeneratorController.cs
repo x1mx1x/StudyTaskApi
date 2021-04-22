@@ -26,8 +26,8 @@ namespace StudyTaskApi.Controllers
             var set = _setGeneratorService.GenerateSet(setDto.Cardinality, setDto.Length, setDto.Alphabet);
             var counts = _countService.CountCharacters(set, setDto.Alphabet);
             myStopwatch.Stop();
-            TimeSpan timer = TimeSpan.FromMilliseconds(myStopwatch.ElapsedMilliseconds);
-            return new ResponseSetDto{ Set = set, Counts = counts,Timer = timer};
+
+            return new ResponseSetDto{ Set = set, Counts = counts, ProcessingTime = myStopwatch.Elapsed };
         }
 
     }

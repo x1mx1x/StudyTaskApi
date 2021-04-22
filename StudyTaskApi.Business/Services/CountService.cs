@@ -8,23 +8,17 @@ namespace StudyTaskApi.Business.Services
         public Dictionary<char, int> CountCharacters(List<string> strings, string alphabet)
         {
             Dictionary<char, int> counts = new Dictionary<char, int>();
-            int count;
 
-            foreach (char ch in alphabet)
+            foreach (var str in strings)
             {
-                count = 0;
-                foreach (var str in strings)
+                for (int i = 0; i < str.Length; i++)
                 {
-                    for (int i = 0; i < str.Length; i++) 
+                    if (!counts.ContainsKey(str[i])) 
                     {
-                        if (str[i] == ch) 
-                        {
-                            count++;
-                        }
+                        counts.Add(str[i],0);
                     }
+                    counts[str[i]]++;
                 }
-
-                counts.Add(ch, count);
             }
 
             return counts;

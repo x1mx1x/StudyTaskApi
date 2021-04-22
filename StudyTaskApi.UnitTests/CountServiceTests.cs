@@ -13,6 +13,7 @@ namespace StudyTaskApi.UnitTests
         Dictionary<char, int> expectedCounts = new Dictionary<char, int>();
         List<string> expectedSet = new List<string>()
             { "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" };
+
         [SetUp]
         public void SetUp()
         {
@@ -24,7 +25,7 @@ namespace StudyTaskApi.UnitTests
         }
 
         [Test]
-        public void CountCharactersShouldReturnExpectedDictionary()
+        public void CountCharacters_ShouldReturnExpectedDictionary()
         {
             _countService.CountCharacters(expectedSet, alphabet).Should().BeEquivalentTo(expectedCounts);
         }
